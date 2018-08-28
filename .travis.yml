@@ -16,4 +16,6 @@ before_install:
    
 install:
   # Package for release 
-  echo "In Install path"
+  - echo "In Install path"
+  - mkdir -p repo/stable
+  - helm package stable/ibm-nginx-dev -d repo/stable
