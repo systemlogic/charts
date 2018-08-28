@@ -7,8 +7,8 @@ env:
 
 before_install:
   # On Pull commit to master, build the helm repo
-  echo "Install helm"
-  cat /etc/*release*
+  - echo "Install helm"
+  i cat /etc/*release*
 
    
 install:
