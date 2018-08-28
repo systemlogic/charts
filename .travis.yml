@@ -1,6 +1,7 @@
 ---
 sudo: required
 language: generic
+dist: xenial
 
 env:
   - OCTOKIT_API_ENDPOINT="https://github.ibm.com/api/v3/"
