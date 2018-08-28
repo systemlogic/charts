@@ -10,8 +10,8 @@ before_install:
   - echo "Install helm"
   - cat /etc/*release*
   - curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get | bash
-  - helm version
   - helm init --client-only
+  - helm version
 
    
 install:
