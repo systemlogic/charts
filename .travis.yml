@@ -13,8 +13,8 @@ env:
   - OCTOKIT_API_ENDPOINT="https://github.com/"
 
 before_install:
-  - echo "before install"
-  - cat .git/config
+  # On Pull commit to master, build the helm repo
+  - echo "Install helm"
 
    
 install:
